@@ -1,0 +1,100 @@
+#container {
+    display: grid;
+    grid-template-rows: 100px 550px 100px;
+    height: 100%;
+}
+
+#header {
+    background: black;
+    color: red;
+    display: grid;
+    grid-template-columns: 70% 10% 10% 10%;
+    margin: 5px;
+}
+#title {
+    margin: 0;
+    font-size: 50px;
+}
+button {
+    height: 80%;
+    font-size: 25px;
+}
+
+button:focus {
+    outline: none;
+}
+
+#timer {
+}
+
+.flexDisplay {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+#playGround {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#equation {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.dark-background-1 {
+    background: black;
+    color: pink;
+}
+
+#result {
+    margin: 5px;
+    background: black;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.option {
+    margin: 5px;
+    background: grey;
+    color: black;
+    font-size: 50px;
+}
+
+
+#footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    font-size: 30px;
+    margin: 5px;
+    
+}
+
+.footer-ele {
+    margin: 5px;
+    background: purple;
+color: white;
+}
+
+.content {
+    font-size: 100px;
+}
+
+#res {
+    background-color: transparent;
+    color: yellow ;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid blue 1px;
+    font-size: 50px;
+    width: 250px;
+}
